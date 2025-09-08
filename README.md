@@ -102,7 +102,7 @@ poetry run python app/main.py
 ```bash
 poetry run python app/main.py
 ```
-바로 대화를 시작할 수 있습니다.
+터미널 내에서 바로 대화를 시작할 수 있습니다.
 
 ## License
 This project is licensed under the MIT License.
