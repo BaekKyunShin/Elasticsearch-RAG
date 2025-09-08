@@ -1,0 +1,19 @@
+# 가상 환경 폴더
+.venv/
+
+# 환경 변수 파일
+.env
+
+# IDE 및 에디터 설정 폴더
+.vscode/
+.idea/
+
+# 파이썬 캐시 파일
+__pycache__/
+*.pyc
+
+# macOS 시스템 파일
+.DS_Store
+
+# 체크 파일
+check.md
