@@ -49,8 +49,8 @@ Python, Elasticsearch, LangChain, 그리고 Google Gemini 모델을 기반으로
 * **Database & Vector Search**: Elasticsearch (`8.19.0`)
 * **AI & Models**: Google Gemini (`langchain-google-genai 2.1.10`), HuggingFace Embedding (`sentence-transformers 5.1.0`)
 * **Data Handling**: PyPDF (`6.0.0`)
-* **Interface**: Command Line Interface (CLI)
-* **DevOps & Tools**: Docker, Poetry
+* **Deployment & DevOps**: Docker
+* **Dependency Management**: Poetry (`1.8.5`)
 
 ## 로컬 환경에서 실행하기 (Setup & Installation)
 
