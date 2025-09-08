@@ -45,13 +45,12 @@ Python, Elasticsearch, LangChain, 그리고 Google Gemini 모델을 기반으로
 ```
 
 ## 기술 스택
-* **Backend**: Python (`3.11+`), LangChain
-* **Database / Vector Search**: Elasticsearch (`8.x`)
-* **AI / LLM**: Google Gemini (`gemini-1.5-flash`), HuggingFace Sentence Transformers
+* **Backend & Framework**: Python (`3.11+`), LangChain (`0.3.27`)
+* **Database & Vector Search**: Elasticsearch (`8.19.0`)
+* **AI & Models**: Google Gemini (`langchain-google-genai 2.1.10`), HuggingFace Embedding (`sentence-transformers 5.1.0`)
+* **Data Handling**: PyPDF (`6.0.0`)
 * **Interface**: Command Line Interface (CLI)
-* **Data Handling**: PyPDF
-* **Deployment**: Docker (for local Elasticsearch)
-* **Dependency Management**: Poetry
+* **DevOps & Tools**: Docker, Poetry
 
 ## 로컬 환경에서 실행하기 (Setup & Installation)
 
@@ -75,7 +74,7 @@ docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "xpac
 ### 3. 환경 변수 파일 생성
 `.env` 파일을 예시는 아래와 같습니다. 적절히 내용을 수정해서 사용하면 됩니다.
 ```
-# .env
+# .env.example
 
 # Google API Key
 GOOGLE_API_KEY="YOUR_GOOGLE_AI_STUDIO_API_KEY"
